@@ -3,7 +3,7 @@
 
 class JQueryUi_Options
 {
-    const VERSION = '1.8.11';
+    const VERSION = '1.10.0';
 
     protected $_strCdn = JQueryUi_Cdn::NONE;
     protected $_bLoadJavaScript = 1;
