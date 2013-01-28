@@ -57,14 +57,14 @@ class JQueryUi_Options
         {
             case JQueryUi_Cdn::GOOGLE :
                 return Sys_Mode::getScheme(). '://ajax.googleapis.com/ajax/libs/jqueryui/'
-                        . self::VERSION . '/themes/'.$this->_strTheme.'/jquery-ui.css';
+                        . '1.8.11' . '/themes/'.$this->_strTheme.'/jquery-ui.css';
             case JQueryUi_Cdn::MICROSOFT :
                 return Sys_Mode::getScheme(). '://ajax.aspnetcdn.com/ajax/jquery.ui/'
-                        . self::VERSION.'/themes/'.$this->_strTheme.'/jquery-ui.css';
+                        . '1.8.11' .'/themes/'.$this->_strTheme.'/jquery-ui.css';
             default:
                 return $view->staticpath()
                         . 'jquery-ui/css/'.$this->_strTheme.'/jquery-ui-'
-                        . self::VERSION.'.custom.css';
+                        . '1.8.11' .'.custom.css';
         }
     }
 }
